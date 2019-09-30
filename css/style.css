@@ -52,13 +52,13 @@ h2{
     border: 2px solid #000;
     margin-top: 0;
 }
-.col-md-4:nth-child(1) h2{
+.checken{
     background: #D59898;
 }
-.col-md-4:nth-child(2) h2{
+.beef{
     background: #C14543!important;
 }
-.col-md-4:last-child h2{
+.sushi{
     background: #E5D198;
 }
 @media only screen and (max-width: 767px) {
