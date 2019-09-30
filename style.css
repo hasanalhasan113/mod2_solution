@@ -61,4 +61,8 @@ h2{
 .col-md-4:last-child h2{
     background: #E5D198;
 }
-
+@media only screen and (max-width: 767px) {
+    .col-md-12,.col-md-6,.col-md-4,.col-md-3 {
+      width: 100%;
+    }
+  }
