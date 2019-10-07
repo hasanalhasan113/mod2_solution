@@ -73,6 +73,9 @@ main{
 p{
 	margin-bottom: 10px;
 }
+.ourmenu {
+    margin: 25px;
+}
 .chicken, .beef, .sushi{
 	background-color: gray;
 	border: 3px solid black;
