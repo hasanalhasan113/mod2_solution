@@ -68,6 +68,13 @@ main{
 }
 .ourmenu, h2{
 	text-align: center;
+	padding: 10px;
+}
+h1.ourmenu {
+    margin: 25px;
+}
+p {
+    margin-bottom: 15px;
 }
 .chicken, .beef, .sushi{
 	background-color: gray;
