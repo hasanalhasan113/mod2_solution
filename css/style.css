@@ -83,10 +83,16 @@ p{
 	padding-right: 15px;
 	padding-left: 15px;
 }
-.raw{
-	width: 100%;
-	display: flex;
-	flex-wrap: wrap;
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
 }
 /*END OF MAIN*/
 
@@ -231,4 +237,5 @@ p{
 		width: 100%;
 	}
 }
+
 /*END OF MEDIA QUERIES*/
