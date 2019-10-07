@@ -77,8 +77,8 @@ p{
     margin: 25px;
 }
 .chicken, .beef, .sushi{
-	background-color: gray;
-	border: 3px solid black;
+	background-color: #d8e6fc;
+	border: 3px solid #1a1a1a;
 	margin-bottom: 15px;
 	padding-right: 15px;
 	padding-left: 15px;
