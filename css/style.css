@@ -93,6 +93,9 @@ p{
 .row {
     margin-right: -15px;
     margin-left: -15px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
 }
 /*END OF MAIN*/
 
