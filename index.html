@@ -12,31 +12,48 @@
 
    
 <body data-gr-c-s-loaded="true">
-	<header>
-		<h1><a class="linklogo" href="#logo">Food, LLC</a></h1>
-		<nav class="navigation">
-			<input type="checkbox" name="menu" id="btn-menu">
-			<label for="btn-menu">Menu</label>
-			<ul>
-			    <li><a class="menu" href="#1">Chicken</a></li>
-			    <li><a class="menu" href="#2">Beef</a></li>
-			    <li><a class="menu" href="#3">Sushi</a></li>
-			</ul>
-		</nav>
-	</header>
+		<header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
+
+			<nav class="navbar navbar-expand-lg">
+				<div class="container">
+					<div class="col-4">
+						<h1><a class="linklogo" href="#logo">Food, LLC</a></h1>
+					</div>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="col-8">
+
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<ul class="navbar-nav mr-auto">
+								<li><a class="menu" href="#1">Chicken</a></li>
+								<li><a class="menu" href="#2">Beef</a></li>
+								<li><a class="menu" href="#3">Sushi</a></li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+
+			</nav>
+		</header>
+
+
+
+
 		<h1 class="ourmenu">Our Menu</h1>
 		<main class="container">
 
 			<div class="raw">
 
 				<div class=" col-lg-4 col-md-6 col-sm-12">
-					<div class="chicken">
+					<div id="1" class="chicken">
 						<h2>Chicken</h2>
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 					</div>
 				</div>
 				<div class=" col-lg-4 col-md-6 col-sm-12">
-						<div class="beef">
+						<div id="2" class="beef">
 
 							<h2>Beef</h2>
 							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
@@ -44,7 +61,7 @@
 			</div>
 
 				<div class="col-lg-4 col-md-12 col-sm-12">
-						<div class="sushi">
+						<div id="3" class="sushi">
 							<h2>Sushi</h2>
 							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 						</div>
